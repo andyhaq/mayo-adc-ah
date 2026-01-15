@@ -2,3 +2,5 @@ apiVersion: designcenter.googleapis.com/v1
 kind: TemplateMetadata
 metadata:
   name: storage-bucket-template
+
+spec: {}
