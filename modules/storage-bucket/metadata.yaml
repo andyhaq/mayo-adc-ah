@@ -6,21 +6,17 @@ metadata:
   description: "Creates a Google Cloud Storage bucket with uniform bucket-level access."
   annotations:
     category: "Storage"
-spec:
-  groups:
-    - name: basic_info
-      displayName: "Basic Configuration"
-      description: "Core settings for the Cloud Storage bucket"
 
+spec:
   inputs:
     - name: bucket_name
       displayName: "Bucket Name"
-      group: basic_info
+      required: true
 
     - name: project_id
       displayName: "Target Project"
-      group: basic_info
+      required: true
 
     - name: region
       displayName: "Bucket Region"
-      group: basic_info
+      required: true
