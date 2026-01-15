@@ -2,21 +2,3 @@ apiVersion: designcenter.googleapis.com/v1
 kind: TemplateMetadata
 metadata:
   name: storage-bucket-template
-  displayName: "Cloud Storage Bucket"
-  description: "Creates a Google Cloud Storage bucket with uniform bucket-level access."
-  annotations:
-    category: "Storage"
-
-spec:
-  inputs:
-    - name: bucket_name
-      displayName: "Bucket Name"
-      required: true
-
-    - name: project_id
-      displayName: "Target Project"
-      required: true
-
-    - name: region
-      displayName: "Bucket Region"
-      required: true
